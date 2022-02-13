@@ -1,17 +1,24 @@
 """Пример реализации наследования"""
 # class Animal:
+#
 #     def __init__(self, name):
 #         self.name = name
 #
 #     def voice(self):
-#         raise NotImplemented
+#         raise NotImplementedError
 #
 #
 # class Horse(Animal):
+#
+#     def __init__(self, name, speed):
+#         super().__init__(name)
+#         self.speed = speed
+#
 #     def voice(self):
 #         print('ИгоГо')
 #
-# jack = Horse('Jack')
+# jack = Horse('Jack', 5)
+# print(jack.name)
 # jack.voice()
 
 
